@@ -19,9 +19,20 @@ background-color: black;
     padding-right: 330px;
 }
 
-button{
+.mercBtn{
     background-color: rgba(240, 248, 255, 0);
     border: none;
+}
+.briefing{
+    grid-column: 1/4;
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 100;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
 }
 
 .emblem{
