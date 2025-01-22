@@ -6,3 +6,10 @@ div{
     display: flex;
     justify-content: center;
 }
+
+.merc{
+    position: absolute;
+    right: 20px;
+    height: 90%;
+    width: auto;
+}
