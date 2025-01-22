@@ -5,7 +5,7 @@ background-color: black;
     background-image: url('/assets/Contracker.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 75% 75%;
+    background-size: 60% 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -14,8 +14,9 @@ background-color: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 100px;
+    padding-top: 50px;
     padding-bottom: 350px;
-    padding-right: 350px;
+    padding-right: 330px;
 }
 
 button{
@@ -24,30 +25,32 @@ button{
 }
 
 .emblem{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .infoBox{
-    width: 300px;
+    width: 270px;
     height: 200px;
     position: absolute;
-    top: 200px;
-    right: 270px;
+    top: 95px;
+    right: 320px;
     display: flex;
     justify-content: start;
     align-items:flex-start;
 }
 
 .mercIcon{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 .job{
-    margin: 30px;
+    margin: 5px;
+    padding: 15px;
 }
 .activity{
     position: absolute;
-    top: -110%;
+    top: 100px;
+    left: 10px;
 }
