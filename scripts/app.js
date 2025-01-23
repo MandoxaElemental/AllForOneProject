@@ -7,6 +7,7 @@ let EngineerBtn = document.getElementById("engineerBtn");
 let MedicBtn = document.getElementById("medicBtn");
 let SniperBtn = document.getElementById("sniperBtn");
 let SpyBtn = document.getElementById("spyBtn");
+let MissionBtn = document.getElementById("briefingBtn");
 
 ScoutBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Scout_Icon.jpg"
@@ -26,7 +27,7 @@ PyroBtn.addEventListener("mouseover", function(){
 DemomanBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Demoman_Icon.jpg"
     document.getElementById('job').innerText = "House Cleaning"
-    document.getElementById('activity').innerText = "Reverse It"
+    document.getElementById('activity').innerText = "Reverse It (Alphanumerical)"
 })
 HeavyBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Heavy_Icon.jpg"
@@ -36,7 +37,7 @@ HeavyBtn.addEventListener("mouseover", function(){
 EngineerBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Engineer_Icon.jpg"
     document.getElementById('job').innerText = "Area Denial"
-    document.getElementById('activity').innerText = "Guess It"
+    document.getElementById('activity').innerText = "Reverse It (Numerical-Only)"
 })
 MedicBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Medic_Icon.jpg"
@@ -52,4 +53,9 @@ SpyBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Spy_Icon.jpg"
     document.getElementById('job').innerText = "Uncloak & Dagger"
     document.getElementById('activity').innerText = "Restaruant Picker"
+})
+MissionBtn.addEventListener("mouseover", function(){
+    document.getElementById("mercIcon").src = "../assets/Team_Fortress_2_style_logo.png"
+    document.getElementById('job').innerText = "Reliable Excavation Demolition"
+    document.getElementById('activity').innerText = "MadLib"
 })
