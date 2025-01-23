@@ -35,9 +35,17 @@ background-color: black;
     margin: 10px;
 }
 
+.briefing:hover{
+    opacity: 80%
+}
+
 .emblem{
     height: 80px;
     width: 80px;
+}
+
+.emblem:hover{
+    opacity: 80%;
 }
 
 .infoBox{

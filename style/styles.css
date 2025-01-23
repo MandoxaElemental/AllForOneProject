@@ -6,16 +6,52 @@ body{
     position: absolute;
     bottom: 0;
     right: 20px;
-    height: 90%;
+    height: 80%;
     width: auto;
 }
 
 .game-box{
     background-color: rgba(128, 128, 128, 0.478);
-    margin: 50px 300px 50px 50px;
+    margin: 20px 300px 50px 50px;
     height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
-header{
+input{
+    background-color: #f39057b3;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+.backBtn{
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 50px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+.backBtn:hover{
+    opacity: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C3E3C;
+    height: 64px;
+}
+
+.activity{
     
 }

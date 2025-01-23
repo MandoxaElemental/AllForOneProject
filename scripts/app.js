@@ -9,6 +9,16 @@ let SniperBtn = document.getElementById("sniperBtn");
 let SpyBtn = document.getElementById("spyBtn");
 let MissionBtn = document.getElementById("briefingBtn");
 
+const MenuMusic = document.getElementById("menuMusic");
+
+MenuMusic.loop = true
+
+function bgMusic(){
+    MenuMusic.play()
+}
+
+onload=bgMusic()
+
 ScoutBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Scout_Icon.jpg"
     document.getElementById('job').innerText = "Rapid Recovery"
