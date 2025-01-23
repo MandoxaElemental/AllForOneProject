@@ -10,22 +10,28 @@ body{
     width: auto;
 }
 
+.merc:hover{
+    filter:brightness(80%);
+}
+
 .game-box{
     background-color: rgba(128, 128, 128, 0.478);
-    margin: 20px 300px 50px 50px;
+    margin: 20px 300px 0px 50px;
     height: 450px;
-    display: flex;
+    border-radius: 20px;
+    display: grid;
+    grid-row: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    text-align: center;
 }
 
 input{
     background-color: #f39057b3;
     height: 50px;
+    width: 400px;
     font-size: 30px;
     text-align: center;
-    margin: 50px;
 }
 
 .backBtn{
@@ -52,6 +58,8 @@ input{
     height: 64px;
 }
 
-.activity{
-    
+.textBox{
+    background-color: #f39057b3;
+    height: 125px;
+    width: 400px;
 }
