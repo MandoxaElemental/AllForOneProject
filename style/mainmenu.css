@@ -6,6 +6,8 @@ background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 55% 100%;
+    width: 1275px;
+    height: 500px;
     margin: 0px;
     padding: 0px;
 }
@@ -14,9 +16,8 @@ background-color: black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 80px;
-    padding-top: 50px;
-    padding-bottom: 400px;
-    padding-right: 330px;
+    padding-left: 50px;
+    padding-top: 40px;
 }
 
 .mercBtn{
@@ -40,8 +41,8 @@ background-color: black;
 }
 
 .emblem{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
 }
 
 .emblem:hover{
@@ -49,14 +50,11 @@ background-color: black;
 }
 
 .infoBox{
-    width: 230px;
-    height: 160px;
-    position: absolute;
-    top: 80px;
-    right: 360px;
-    display: flex;
-    justify-content: start;
-    align-items:flex-start;
+    width: 220px;
+    height: 180px;
+    margin-top: 90px;
+    margin-left: 50px;
+    text-align: center;
 }
 
 .mercIcon{
@@ -65,10 +63,11 @@ background-color: black;
 }
 
 .job{
-    padding: 15px;
+    padding-top: 15px;
+    margin-right: 50px;
 }
 .activity{
-    position: absolute;
     top: 100px;
     left: 10px;
+    grid-column: 1 / 3;
 }

@@ -47,7 +47,7 @@ HeavyBtn.addEventListener("mouseover", function(){
 EngineerBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Engineer_Icon.jpg"
     document.getElementById('job').innerText = "Area Denial"
-    document.getElementById('activity').innerText = "Reverse It (Numerical-Only)"
+    document.getElementById('activity').innerText = `Reverse It (Numerical-Only)`
 })
 MedicBtn.addEventListener("mouseover", function(){
     document.getElementById("mercIcon").src = "../assets/charIcons/Medic_Icon.jpg"
