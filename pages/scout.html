@@ -12,21 +12,24 @@
 <body>
     <div>
         <div class="header">
-            
             <h1>Say Hello</h1></div>
-        <img class="merc" src="/assets/characters/Scout.png" alt="Scout">
+        <img class="merc" id="scout" src="/assets/characters/Scout.png" alt="Scout">
         <div class="game-box bg-black">
             <input type="text" id="sayHelloInput" class="bg-orange-500">
             <div>
-                <button class="submitBtn">Enter</button>
+                <button class="submitBtn" id="scoutBtn">Enter</button>
             </div>
-            <div class="textBox"></div>
+            <div class="textBox flex justify-center text-xl p-2">
+                <h1 id="result">Yo... You're the new guy right? What's ya name pal?</h1>
+            </div>
             <div>
                 <a href="/index.html"><button class="backBtn"><h1 class="text-xl">Back</h1></button></a>
             </div>
         </div>
         <footer></footer>
     </div>
+    <audio id="scoutAudio" src="/assets/audio/ScoutAudio.wav"></audio>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="/scripts/scout.js"></script>
 </body>
 </html>
