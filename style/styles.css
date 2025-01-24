@@ -71,6 +71,7 @@ input{
     align-items: center;
     background-color: #3C3E3C;
     height: 64px;
+    padding-left: 50px;
 }
 
 .textBox{

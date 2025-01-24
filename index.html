@@ -12,25 +12,29 @@
 </head>
 <body>
     <div class="contracker flex justify-center">
-        <section class="grid grid-cols-2">
-            <div class="buttonGrid grid-cols-3">
-                <button class="mercBtn" id="scoutBtn"><a href="/pages/scout.html"><img class="emblem" src="/assets/emblems/Scout_emblem_RED.png" alt="Scout Emblem"></a></button>
-                <button class="mercBtn" id="soldierBtn"><a href="/pages/soldier.html"><img class="emblem" src="/assets/emblems/Soldier_emblem_RED.png" alt="Soldier Emblem"></a></button>
-                <button class="mercBtn" id="pyroBtn"><a href="/pages/pyro.html"><img class="emblem" src="/assets/emblems/Pyro_emblem_RED.png" alt="Pyro Emblem"></a></button>
-                <button class="mercBtn" id="demomanBtn"><a href="/pages/demoman.html"><img class="emblem" src="/assets/emblems/Demoman_emblem_RED.png" alt="Demoman Emblem"></a></button>
-                <button class="mercBtn" id="heavyBtn"><a href="/pages/heavy.html"><img class="emblem" src="/assets/emblems/Heavy_emblem_RED.png" alt="Heavy Emblem"></a></button>
-                <button class="mercBtn" id="engineerBtn"><a href="/pages/engineer.html"><img class="emblem" src="/assets/emblems/Engineer_emblem_RED.png" alt="Engineer Emblem"></a></button>
-                <button class="mercBtn" id="medicBtn"><a href="/pages/medic.html"><img class="emblem" src="/assets/emblems/Medic_emblem_RED.png" alt="Medic Emblem"></a></button>
-                <button class="mercBtn" id="sniperBtn"><a href="/pages/sniper.html"><img class="emblem" src="/assets/emblems/Sniper_emblem_RED.png" alt="Sniper Emblem"></a></button>
-                <button class="mercBtn" id="spyBtn"><a href="/pages/spy.html"><img class="emblem" src="/assets/emblems/Spy_emblem_RED.png" alt="Spy Emblem"></a></button>
-                <button class="briefing" id="briefingBtn"><h2>Mission Briefing</h2></button>
-            </div>
-            <div class="infoBox grid grid-cols-2 align">
-                <img class="mercIcon" id="mercIcon" src="/assets/Team_Fortress_2_style_logo.png" alt="Icon">
-                <h3 id="job" class="job"></h3>
-                <div class="activity"><h3 id="activity"></h3></div>
-            </div>
-        </section>
+        <div class="">
+            <section class="grid grid-cols-2">
+                <div class="buttonGrid grid-cols-3">
+                    <button class="mercBtn" id="scoutBtn"><a href="/pages/scout.html"><img class="emblem" src="/assets/emblems/Scout_emblem_RED.png" alt="Scout Emblem"></a></button>
+                    <button class="mercBtn" id="soldierBtn"><a href="/pages/soldier.html"><img class="emblem" src="/assets/emblems/Soldier_emblem_RED.png" alt="Soldier Emblem"></a></button>
+                    <button class="mercBtn" id="pyroBtn"><a href="/pages/pyro.html"><img class="emblem" src="/assets/emblems/Pyro_emblem_RED.png" alt="Pyro Emblem"></a></button>
+                    <button class="mercBtn" id="demomanBtn"><a href="/pages/demoman.html"><img class="emblem" src="/assets/emblems/Demoman_emblem_RED.png" alt="Demoman Emblem"></a></button>
+                    <button class="mercBtn" id="heavyBtn"><a href="/pages/heavy.html"><img class="emblem" src="/assets/emblems/Heavy_emblem_RED.png" alt="Heavy Emblem"></a></button>
+                    <button class="mercBtn" id="engineerBtn"><a href="/pages/engineer.html"><img class="emblem" src="/assets/emblems/Engineer_emblem_RED.png" alt="Engineer Emblem"></a></button>
+                    <button class="mercBtn" id="medicBtn"><a href="/pages/medic.html"><img class="emblem" src="/assets/emblems/Medic_emblem_RED.png" alt="Medic Emblem"></a></button>
+                    <button class="mercBtn" id="sniperBtn"><a href="/pages/sniper.html"><img class="emblem" src="/assets/emblems/Sniper_emblem_RED.png" alt="Sniper Emblem"></a></button>
+                    <button class="mercBtn" id="spyBtn"><a href="/pages/spy.html"><img class="emblem" src="/assets/emblems/Spy_emblem_RED.png" alt="Spy Emblem"></a></button>
+                    <a class="briefing" href="/pages/madlib.html">
+                        <button id="briefingBtn"><h2>Mission Briefing</h2></button>
+                    </a>
+                </div>
+                <div class="infoBox grid grid-cols-2 align">
+                    <img class="mercIcon" id="mercIcon" src="/assets/Team_Fortress_2_style_logo.png" alt="Icon">
+                    <h3 id="job" class="job"></h3>
+                    <div class="activity"><h3 id="activity"></h3></div>
+                </div>
+            </section>
+        </div>
     </div>
     <audio id="menuMusic" src="/assets/audio/Team Fortress 2 Soundtrack _ Upgrade Station.mp3"></audio>
     <script src="/scripts/app.js"></script>

@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.contracker{
+    background-image: url('/assets/Contracker.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    width: 1275px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.title{
+    padding-top: 30px;
+}
+
+.backBtn{
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 50px;
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 10px;
+}
+.backBtn:hover{
+    opacity: 80%;
+}
+
+input{
+    background-color: #f39057b3;
+    height: 25px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.madlibGrid{
+    width: 420px
+}
+.contrackerInner{
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.madlibBtns{
+    padding-right: 400px;
+    padding-top: 100px;
+}
+
+#resultBox{
+    background-color: #3C3E3C;
+    border: solid #F39157;
+    color: white;
+    margin: 100px;
+    padding: 50px
+}
