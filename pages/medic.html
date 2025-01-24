@@ -12,18 +12,20 @@
 <body>
     <div class="header"><h1>Asking Questions</h1></div>    <img class="merc" src="/assets/characters/Medic.png" alt="Medic">
     <div class="game-box bg-black">
-        <input type="text" id="askingQuestions1Input" class="bg-orange-500">
-        <input type="text" id="askingQuestions2Input" class="bg-orange-500">
+        <input type="text" placeholder="ex.(herbert)" id="askingQuestions1Input" class="bg-orange-500">
+        <input type="text" placeholder="1-12" id="askingQuestions2Input" class="bg-orange-500">
         <div>
-            <button class="submitBtn">Enter</button>
+            <button class="submitBtn" id="medicBtn">Enter</button>
         </div>
         <div class="textBox flex justify-center text-xl p-2">
-            <h1 id="result"></h1>
+            <h1 id="result">Velcome mein Friend, you here to zchedule your appointment, ja?</h1>
         </div>
             <a href="/index.html"><button class="backBtn"><h1 class="text-xl">Back</h1></button></a>
         </div>
         </div>
             <footer></footer>
+            <audio id="medicMusic" src="/assets/audio/Team Fortress 2 Soundtrack _ Archimedes [ ezmp3.cc ].mp3"></audio>
             <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+            <script src="/scripts/medic.js"></script>
 </body>
 </html>

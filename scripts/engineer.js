@@ -1,6 +1,6 @@
 let reverseItNumericalInput = document.getElementById("reverseItNumericalInput");
 let EnterBtn = document.getElementById("engineerBtn");
-let userInput = "";
+let userInput = "0";
 let FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/reverseit/reversednum/${userInput}`;
 let Result = document.getElementById('result')
 let Engineer = document.getElementById('engineer')

@@ -14,16 +14,13 @@
     <img class="merc" src="/assets/characters/Spy.png" alt="Spy">
     <div class="game-box bg-black">
         <section class="grid grid-cols-2 gap-2">
-            <button class="submitBtn">French</button>
-            <button class="submitBtn">Burger</button>
-            <button class="submitBtn">Taco</button>
-            <button class="submitBtn">Chicken</button>
-            <button class="submitBtn">Pizza</button>
-            <button class="submitBtn">Other</button>
+            <button id="french" class="submitBtn">French</button>
+            <button id="burger" class="submitBtn">Burger</button>
+            <button id="taco" class="submitBtn">Taco</button>
+            <button id="chicken" class="submitBtn">Chicken</button>
+            <button id="pizza" class="submitBtn">Pizza</button>
+            <button id="other" class="submitBtn">Other</button>
         </section>
-        <div>
-            <button class="submitBtn">Enter</button>
-        </div>
             <div class="textBox flex justify-center text-xl p-2">
                 <h1 id="result"></h1>
             </div>
@@ -31,6 +28,8 @@
         </div>
     </div>
     <footer></footer>
+    <audio id="spyMusic" src="/assets/audio/Team Fortress 2 Soundtrack _ Petite Chou-Fleur [ ezmp3.cc ].mp3"></audio>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="/scripts/spy.js"></script>
 </body>
 </html>
