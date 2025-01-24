@@ -18,6 +18,7 @@ body{
     background-color: rgba(128, 128, 128, 0.478);
     margin: 20px 300px 0px 50px;
     height: 450px;
+    max-height: 450px;
     border-radius: 20px;
     display: grid;
     grid-row: 1fr 1fr;
@@ -46,13 +47,27 @@ input{
     margin: 10px;
 }
 
+.submitBtn{
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 50px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.submitBtn:hover{
+    opacity: 80%;
+}
 .backBtn:hover{
     opacity: 80%;
 }
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3C3E3C;
     height: 64px;
@@ -61,5 +76,6 @@ input{
 .textBox{
     background-color: #f39057b3;
     height: 125px;
+    max-height: 125px;
     width: 400px;
 }
