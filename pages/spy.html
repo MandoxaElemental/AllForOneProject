@@ -13,11 +13,20 @@
     <div class="header"><h1>Restaurant Picker</h1></div>
     <img class="merc" src="/assets/characters/Spy.png" alt="Spy">
     <div class="game-box bg-black">
+        <section class="grid grid-cols-2 gap-2">
+            <button class="submitBtn">French</button>
+            <button class="submitBtn">Burger</button>
+            <button class="submitBtn">Taco</button>
+            <button class="submitBtn">Chicken</button>
+            <button class="submitBtn">Pizza</button>
+            <button class="submitBtn">Other</button>
+        </section>
         <div>
             <button class="submitBtn">Enter</button>
         </div>
-        <div class="textBox"></div>
-        <div>
+            <div class="textBox flex justify-center text-xl p-2">
+                <h1 id="result"></h1>
+            </div>
             <a href="/index.html"><button class="backBtn"><h1 class="text-xl">Back</h1></button></a>
         </div>
     </div>
