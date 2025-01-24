@@ -5,6 +5,15 @@ let FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurew
 let Result = document.getElementById('result')
 let Scout = document.getElementById('scout')
 let ScoutAudio = document.getElementById('scoutAudio')
+const ScoutMusic = document.getElementById("scoutMusic");
+
+ScoutMusic.loop = true
+
+function bgMusic(){
+    ScoutMusic.play()
+}
+
+onload=bgMusic()
 
 const getScout = async () => {
     const response = await fetch(FetchLink);
