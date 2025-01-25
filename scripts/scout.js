@@ -22,7 +22,12 @@ const getScout = async () => {
   };
 
 EnterBtn.addEventListener("click", async ()=>{
-    name = SayHelloInput.value
+    if(SayHelloInput.value == "")
+    {
+        name = "Jeremy"
+    } else{
+        name = SayHelloInput.value
+    }
     FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/sayhello/helloworld/${name}`;
     getScout()
 })

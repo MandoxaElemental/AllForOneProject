@@ -84,16 +84,12 @@ background-color: black;
         margin: 0px;
         padding: 0px;
     }
-    .emblem{
-        height: 125px;
-        width: 125px;
-    }
     .infoBox{
         display: none;
     }
     .briefing{
         height: 50px;
-        font-size: 30px;
+        font-size: 25px;
     }
     .buttonGrid{
         height: 100%;

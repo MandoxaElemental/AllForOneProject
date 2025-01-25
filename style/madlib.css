@@ -60,7 +60,7 @@ input{
     background-color: #3C3E3C;
     border: solid #F39157;
     color: white;
-    margin: 100px;
+    margin: 10px 100px;
     padding: 50px;
 }
 @media (max-width: 1024px){

@@ -5,3 +5,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+@media (max-width: 768px){
+    .submitBtn{
+        width: 170px;
+    }
+}
