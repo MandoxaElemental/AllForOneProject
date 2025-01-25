@@ -26,7 +26,7 @@ body{
     border: solid #B8383B ;
     border-width: medium;
     height: 50px;
-    width: 150px;
+    width: 100px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin: 10px;
@@ -62,4 +62,27 @@ input{
     color: white;
     margin: 100px;
     padding: 50px;
+}
+@media (max-width: 1024px){
+    .mobileMadlib{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .contrackerInner{
+        padding: 0px;
+        overflow: scroll;
+        height: 300px;
+    }
+    .madlibBtns{
+        padding: 0px;
+    }
+    input{
+        background-color: #f39057b3;
+        height: 25px;
+        width: 300px;
+    }
+    .madlibGrid{
+        padding-left: 60px;
+    }
 }

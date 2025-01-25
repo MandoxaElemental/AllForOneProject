@@ -80,3 +80,25 @@ input{
     max-height: 125px;
     width: 400px;
 }
+
+.mobileIcon{
+    width: 125px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .merc{
+        display: none;
+    }
+
+    .game-box{
+        margin: 0px;
+        height: 600px;
+        max-height: 600px;
+        border-radius: 0px;
+    }
+
+    .mobileIcon{
+        display: flex;
+    }
+}
