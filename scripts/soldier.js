@@ -30,8 +30,8 @@ EnterBtn.addEventListener("click", async ()=>{
     getSoldier()
 })
 
-//Soldier.addEventListener("click", async ()=>{
-  //  SoldierAudio.play();
-//})
+Soldier.addEventListener("click", async ()=>{
+    SoldierAudio.play();
+})
 
 

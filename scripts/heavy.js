@@ -30,8 +30,8 @@ EnterBtn.addEventListener("click", async ()=>{
     getHeavy()
 })
 
-//Heavy.addEventListener("click", async ()=>{
-  //  HeavyAudio.play();
-//})
+Heavy.addEventListener("click", async ()=>{
+    HeavyAudio.play();
+})
 
 

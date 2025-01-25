@@ -6,44 +6,49 @@
     <title>Mission Briefing -MadLib</title>
     <link rel="stylesheet" href="/src/output.css">
     <link rel="stylesheet" href="/style/madlib.css">
+    <link rel="stylesheet" href="/style/wickedcss.min.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/Team_Fortress_2_style_logo.png">
 </head>
 <body>
-    <div class="contracker">
-        <div class="title">
-            <h1 class="text-xl">Mission Briefing</h1>
-            <h2>(MadLib)</h2>
-        </div>
-    <div class="contrackerInner grid grid-cols-2">
-        <section class="madlibGrid grid grid-cols-2 gap-2 text-sm">
-            <input id="colorInput" placeholder="Color" type="text">
-            <input id="pluralNoun1Input" placeholder="Plural Noun" type="text">
-            <input id="placeInput" placeholder="Place" type="text">
-            <input id="verb1Input" placeholder="Verb" type="text">
-            <input id="verb2Input" placeholder="Verb" type="text">
-            <input id="noun1Input" placeholder="Noun" type="text">
-            <input id="adjective1Input" placeholder="Adjective" type="text">
-            <input id="pluralObjectInput" placeholder="Plural Object" type="text">
-            <input id="noun2Input" placeholder="Noun" type="text">
-            <input id="verb3Input" placeholder="Verb" type="text">
-            <input id="pluralNoun2Input" placeholder="Plural Noun" type="text">
-            <input id="adjective2Input" placeholder="Adjective" type="text">
-            <input id="pluralNoun3Input" placeholder="Plural Noun" type="text">
-            <input id="adverb1Input" placeholder="Adverb" type="text">
-            <input id="verb4Input" placeholder="Verb" type="text">
-            <input id="adverb2Input" placeholder="Adverb" type="text">
-        </section>
-        <div class="madlibBtns grid grid-cols-1"> 
-        <button class="backBtn" id="madlibBtn" popovertarget="resultBox"><h1 class="text-xl">GO</h1></button>
-        <div>
-            <a href="/index.html"><button class="backBtn"><h1 class="text-xl">Back</h1></button></a>
+    <div class="flex justify-center align-middle">
+            <div popover id="resultBox">
+                <p id="result"></p>
+            </div>
+
+        <div class="contracker">
+            <div class="title">
+                <h1 class="text-xl">Mission Briefing</h1>
+                <h2>(MadLib)</h2>
+            </div>
+        <div class="contrackerInner grid grid-cols-2">
+            <section class="madlibGrid grid grid-cols-2 gap-2 text-sm">
+                <input id="colorInput" placeholder="Color" type="text">
+                <input id="pluralNoun1Input" placeholder="Plural Noun" type="text">
+                <input id="placeInput" placeholder="Place" type="text">
+                <input id="verb1Input" placeholder="Verb" type="text">
+                <input id="verb2Input" placeholder="Verb" type="text">
+                <input id="noun1Input" placeholder="Noun" type="text">
+                <input id="adjective1Input" placeholder="Adjective" type="text">
+                <input id="pluralObjectInput" placeholder="Plural Object" type="text">
+                <input id="noun2Input" placeholder="Noun" type="text">
+                <input id="verb3Input" placeholder="Verb" type="text">
+                <input id="pluralNoun2Input" placeholder="Plural Noun" type="text">
+                <input id="adjective2Input" placeholder="Adjective" type="text">
+                <input id="pluralNoun3Input" placeholder="Plural Noun" type="text">
+                <input id="adverb1Input" placeholder="Adverb" type="text">
+                <input id="verb4Input" placeholder="Verb" type="text">
+                <input id="adverb2Input" placeholder="Adverb" type="text">
+            </section>
+            <div class="madlibBtns grid grid-cols-1"> 
+            <button class="backBtn" id="madlibBtn" popovertarget="resultBox"><h1 class="text-xl">GO</h1></button>
+            <div>
+                <a href="/index.html"><button class="backBtn"><h1 class="text-xl">Back</h1></button></a>
+            </div>
+            </div>
         </div>
         </div>
     </div>
-    <div popover id="resultBox">
-        <p id="result"></p>
-    </div>
-    </div>
+    <audio id="madlibMusic" src="/assets/audio/Team Fortress 2 Soundtrack _ Dapper Cadaver [ ezmp3.cc ].mp3"></audio>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <script src="/scripts/madlib.js"></script>
 </body>

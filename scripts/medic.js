@@ -31,8 +31,8 @@ EnterBtn.addEventListener("click", async ()=>{
     getMedic()
 })
 
-//Medic.addEventListener("click", async ()=>{
-  //  MedicAudio.play();
-//})
+Medic.addEventListener("click", async ()=>{
+    MedicAudio.play();
+})
 
 

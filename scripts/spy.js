@@ -55,8 +55,8 @@ OtherBtn.addEventListener("click", async ()=>{
     FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/restaurantpicker/restaurantpicker/${yourChoice}`;
     getSpy()
 })
-// Spy.addEventListener("click", async ()=>{
-//     SpyAudio.play();
-// })
+ Spy.addEventListener("click", async ()=>{
+     SpyAudio.play();
+ })
 
 

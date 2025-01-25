@@ -33,16 +33,19 @@ let verb4 = "";
 let adverb2 = "";
 let FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/madlib/madlib/${color}/${pluralNoun1}/${place}/${verb1}/${verb2}/${noun1}/${adjective1}/${pluralObject}/${noun2}/${verb3}/${pluralNoun2}/${adjective2}/${pluralNoun3}/${adverb1}/${verb4}/${adverb2}`;
 let Result = document.getElementById("result");
-// let MadlibAudio = document.getElementById("madlibAudio");
-// const MadlibMusic = document.getElementById("madlibMusic");
+ let MadlibAudio = document.getElementById("madlibAudio");
+ const MadlibMusic = document.getElementById("madlibMusic");
+ let Popover = document.getElementById("resultBox");
 
-// //MadlibMusic.loop = true;
+MadlibMusic.loop = true;
 
-// function bgMusic() {
-//   MadlibMusic.play();
-// }
+function bgMusic() {
+   MadlibMusic.play();
+ }
 
-// onload = bgMusic();
+onload = bgMusic();
+
+Popover.className = "slideUp"
 
 const getMadlib = async () => {
   const response = await fetch(FetchLink);
@@ -51,24 +54,28 @@ const getMadlib = async () => {
 };
 
 EnterBtn.addEventListener("click", async () => {
-    let color = colorInput.value
-    let pluralNoun1 = pluralNoun1Input.value
-    let place = placeInput.value
-    let verb1 = verb1Input.value
-    let verb2 = verb2Input.value
-    let noun1 = noun1Input.value
-    let adjective1 = adjective1Input.value
-    let pluralObject = pluralObjectInput.value
-    let noun2 = noun2Input.value
-    let verb3 = verb3Input.value
-    let pluralNoun2 = pluralNoun2Input.value
-    let adjective2 = adjective2Input.value
-    let pluralNoun3 = pluralNoun3Input.value
-    let adverb1 = adverb1Input.value
-    let verb4 = verb4Input.value
-    let adverb2 = adverb2Input.value
-  FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/madlib/madlib/${color}/${pluralNoun1}/${place}/${verb1}/${verb2}/${noun1}/${adjective1}/${pluralObject}/${noun2}/${verb3}/${pluralNoun2}/${adjective2}/${pluralNoun3}/${adverb1}/${verb4}/${adverb2}`;
-  getMadlib();
+  let color = colorInput.value
+  let pluralNoun1 = pluralNoun1Input.value
+  let place = placeInput.value
+  let verb1 = verb1Input.value
+  let verb2 = verb2Input.value
+  let noun1 = noun1Input.value
+  let adjective1 = adjective1Input.value
+  let pluralObject = pluralObjectInput.value
+  let noun2 = noun2Input.value
+  let verb3 = verb3Input.value
+  let pluralNoun2 = pluralNoun2Input.value
+  let adjective2 = adjective2Input.value
+  let pluralNoun3 = pluralNoun3Input.value
+  let adverb1 = adverb1Input.value
+  let verb4 = verb4Input.value
+  let adverb2 = adverb2Input.value
+  if(color === "" || pluralNoun1 === "" || place === "" || verb1 === "" || verb2 === "" || noun1 === "" || adjective1 === "" || pluralObject === "" || noun2 === "" || verb3 === "" || pluralNoun2 === "" || adjective2 === "" || pluralNoun3 === "" || adverb1 === "" || verb4 === "" || adverb2 === ""){
+    Result.innerHTML = "Some Entries Appear to be Missing"
+  } else {
+    FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurewebsites.net/madlib/madlib/${color}/${pluralNoun1}/${place}/${verb1}/${verb2}/${noun1}/${adjective1}/${pluralObject}/${noun2}/${verb3}/${pluralNoun2}/${adjective2}/${pluralNoun3}/${adverb1}/${verb4}/${adverb2}`;
+    getMadlib();
+  }
 });
 
 //Madlib.addEventListener("click", async ()=>{

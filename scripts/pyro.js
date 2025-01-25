@@ -5,9 +5,13 @@ let FetchLink = `https://greinaresallforoneapi-h4gzeacegyfeajcf.westus-01.azurew
 let Result = document.getElementById('result')
 let Pyro = document.getElementById('pyro')
 let PyroAudio = document.getElementById('pyroAudio')
+let PyrovisionBool = true;
+let Pyrovision = document.getElementById('goggles')
 const PyroMusic = document.getElementById("pyroMusic");
+const PyrovisionMusic = document.getElementById("pyrovisionMusic");
 
 PyroMusic.loop = true
+PyrovisionMusic.loop = true
 
 function bgMusic(){
     PyroMusic.play()
@@ -28,6 +32,20 @@ EnterBtn.addEventListener("click", async ()=>{
 })
 Pyro.addEventListener("click", async ()=>{
     PyroAudio.play();
+})
+Pyrovision.addEventListener("click", async ()=>{
+    if(PyrovisionBool === true){
+        PyroMusic.pause();
+        PyroMusic.currentTime = 0;
+        PyrovisionMusic.play();
+        PyrovisionBool = false;
+     } else if (PyrovisionBool === false){
+        PyrovisionMusic.pause();
+        PyrovisionMusic.currentTime = 0;
+        PyroMusic.play();
+        PyrovisionBool = true;
+    }
+
 })
 
 
