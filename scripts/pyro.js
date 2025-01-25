@@ -7,6 +7,7 @@ let Pyro = document.getElementById('pyro')
 let PyroAudio = document.getElementById('pyroAudio')
 let PyrovisionBool = true;
 let Pyrovision = document.getElementById('goggles')
+let PyroBody = document.getElementById('pyroBody')
 const PyroMusic = document.getElementById("pyroMusic");
 const PyrovisionMusic = document.getElementById("pyrovisionMusic");
 
@@ -39,11 +40,13 @@ Pyrovision.addEventListener("click", async ()=>{
         PyroMusic.currentTime = 0;
         PyrovisionMusic.play();
         PyrovisionBool = false;
+        PyroBody.className = "pyroLand"
      } else if (PyrovisionBool === false){
         PyrovisionMusic.pause();
         PyrovisionMusic.currentTime = 0;
         PyroMusic.play();
         PyrovisionBool = true;
+        PyroBody.className = "pyroDefault"
     }
 
 })

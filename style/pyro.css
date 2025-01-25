@@ -1,7 +1,36 @@
-body{
+.pyroDefault{
     background-image: url("../assets/backgrounds/2Fort.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+}
+.pyroLand{
+    background-image: url("../assets/backgrounds/PyroLand.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.backBtn{
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 50px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+.submitBtn{
+    background-color: #F39157;
+    color: #B8383B;
+    border-radius: 50px;
+    border: solid #B8383B ;
+    border-width: medium;
+    height: 50px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
 }
