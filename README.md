@@ -45,5 +45,5 @@
 ### All For One - Build_Azure Link:
 [All For One - Build Azure Repository Link](https://greinaresafoproject-b7dabuanb3dch0dw.westus-01.azurewebsites.net/index.html)
 
-This has been Peer Reviewed By: 
-> Comments: 
+This has been Peer Reviewed By: Thao Vang
+> Comments: looks very nice, love the theme. the only thing is the index page is not responsive, everything else looks good
